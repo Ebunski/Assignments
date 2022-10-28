@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>abc.com</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="signup__container container">
+        <div class="signup__hero flex">
+          <div class="text">
+            <h1>Sign up</h1>
+            <p>Sign up to unlock exciting experience with our services</p>
+          </div>
+        </div>
+
+        <!--form -->
+        <div class="form__content flex">
+          <div class="wrapper">
+            <div class="intro">
+              <h2>Create an account</h2>
+              <span>Let's get started with your 30 days free trial</span>
+            </div>
+            <form class="flex" action="success.html">
+              <input required type="text" placeholder="First Name*" />
+              <input required type="text" placeholder="Last Name*" />
+              <input required type="email" placeholder="Email address*" />
+              <input required type="password" placeholder="Password*" />
+
+              <div class="gender-and-date">
+                <input required type="date" />
+
+                <div class="gender">
+                  <label class="gender__label">Gender*:</label>
+                  <input
+                    id="male"
+                    required
+                    type="radio"
+                    name="gender"
+                    value="male"
+                  />
+                  <label for="male">Male</label>
+                  <input
+                    id="female"
+                    required
+                    type="radio"
+                    name="gender"
+                    value="female"
+                  />
+                  <label for="female">Female</label>
+                </div>
+              </div>
+
+              <select name="color" id="">
+                <option>Pick a color*</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Red</option>
+                <option>White</option>
+                <option>Black</option>
+                <option>Orange</option>
+                <option>Yellow</option>
+              </select>
+
+              <div class="form__buttons flex">
+                <button class="dark">Create Account</button>
+              </div>
+            </form>
+
+            <p>Already have an account? <a href="login.html">Sign In</a></p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
